@@ -57,8 +57,8 @@ classDiagram
         +atender() void
     }
 
-    Main --> Iphone : instancia / usa
-    Iphone ..|> AparelhoTelefonico : implementa
-    Iphone ..|> NavegadorInternet : implementa
-    Iphone ..|> ReprodutorMusical : implementa
+    Main --> Iphone
+    Iphone ..|> AparelhoTelefonico
+    Iphone ..|> NavegadorInternet
+    Iphone ..|> ReprodutorMusical
 ```
