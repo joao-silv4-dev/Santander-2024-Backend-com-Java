@@ -1,5 +1,3 @@
-package list.operacoesBasicas.lista;
-
 public class Tarefa{
 	private String descricao;
 

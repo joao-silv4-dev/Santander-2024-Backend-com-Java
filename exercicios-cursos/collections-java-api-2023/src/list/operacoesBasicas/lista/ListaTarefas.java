@@ -1,5 +1,3 @@
-package list.operacoesBasicas.lista;
-
 import java.util.ArrayList;
 import java.util.List;
 
