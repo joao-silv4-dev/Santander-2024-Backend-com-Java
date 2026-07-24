@@ -1,0 +1,16 @@
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.function.Consumer;
+
+public class Desafio7{
+	public static void main(String[] args) {
+		List<Integer> numeros = Arrays.asList(1,2,3,4,5,6,7,8,9);
+		System.out.println(
+			numeros.stream().
+			filter(n -> !(
+				n.equals(numeros.stream().max(
+					(n1,n2) -> Integer.compare(n1, n2)))))
+			.max((n1,n2) -> Integer.compare(n1, n2)).get());
+	}
+}
