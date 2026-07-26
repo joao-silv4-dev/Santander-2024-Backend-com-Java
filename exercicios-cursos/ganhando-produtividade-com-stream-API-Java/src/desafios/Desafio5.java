@@ -1,6 +1,5 @@
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.BinaryOperator;
 
 public class Desafio5{
 	public static void main(String[] args) {

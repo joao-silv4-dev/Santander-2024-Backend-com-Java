@@ -1,6 +1,5 @@
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Consumer;
 
 public class Desafio2{
 	public static void main(String[] args) {
